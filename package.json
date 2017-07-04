@@ -1,0 +1,23 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "A dockerized node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dooptroop/docker_node.git"
+  },
+  "author": "mdupree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dooptroop/docker_node/issues"
+  },
+  "homepage": "https://github.com/Dooptroop/docker_node#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
