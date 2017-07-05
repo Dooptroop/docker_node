@@ -1,3 +1,3 @@
 # docker_node
 A dockerized node app
-based off tutorial here: https://www.distelli.com/docs/tutorials/build-and-deploy-nodejs-with-docker/
+based off tutorial here: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
