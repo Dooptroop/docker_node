@@ -1,15 +1,15 @@
 FROM node:boron
 
 #create app directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /app
+WORKDIR /app
 
 #install our node app dependencies
-COPY package.json /usr/src/app/
+COPY package.json /app/
 RUN npm install
 
 #bundle our code to the dockers directory
-COPY . /usr/src/app
+COPY . /app
 
 EXPOSE 8080
 
